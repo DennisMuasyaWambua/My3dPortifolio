@@ -6,9 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-// template ID: template_ufs2jbj
-// service ID:service_8e631my
-// public key:a-UTv7kM1bG2kJel-
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -41,7 +39,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Muasya",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "muasyathegreat4@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
