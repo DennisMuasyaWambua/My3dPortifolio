@@ -122,19 +122,70 @@ import {
   const experiences = [
 
     {
-      title: "Full Stack developer ",
-      company_name: "e-Biashara",
-      icon: ebiashara,
+      title: "Consultant Software Engineer – Systems Reliability & FinTech",
+      company_name: "Panacare Telehealth",
+      icon: meta,
       iconBg: "#E6DEDD",
-      date: "September 2020 - September 2023",
+      date: "August 2025 - April 2026",
       points: [
-        "Designed and implemented enterprise fintech applications of kenya's largest Supply Chain Financing platforms, driving monthly revenue of Ksh 80 million using(Flutter, Django and AWS ec2)",
-        "Integrated multiple third-party systems with the escrow platform, including Mpesa, increasing revenue by 23% in the first quarter.",
-        "Designed and implemented scalable APIs and background workers for managing first- and third-party proprietary licenses using Django rest framework, AWS lambda, and other AWS cloud technologies that serve millions of license requests daily.",
-        "Automated and optimized business logic for the core marketing experiments, including A/B, Auto-Targeting, and Multivariate Testing.",
+        "Architected and delivered highly available, containerized microservices for a large-scale platform, ensuring 99.9% uptime during peak load periods.",
+        "Engineered robust API integration layers for clinical and financial data exchange, utilizing Python and Java, reducing manual data entry and reconciliation errors by 60%.",
+        "Spearheaded the implementation of automated CI/CD pipelines (GitHub Actions, Kubernetes) with 85%+ test coverage, reducing MTTR by 40% through proactive telemetry and monitoring (Prometheus + Grafana).",
+        "Implemented enterprise-grade security protocols (RBAC, JWT, OWASP Top 10), ensuring full compliance with the Kenya Data Protection Act.",
+        "Designed and optimized relational database schemas to support concurrent, large-scale data retrieval across polyglot microservices, achieving sub-second query latency during peak operational hours.",
       ],
     },
-    
+    {
+      title: "Software Engineer",
+      company_name: "BURN Manufacturing USA LLC",
+      icon: tesla,
+      iconBg: "#383E56",
+      date: "August 2025 - February 2026",
+      points: [
+        "Designed and documented scalable RESTful API contracts for a multi-country IoT and e-commerce platform, enabling rapid third-party integration and seamless cross-market functionality.",
+        "Optimized backend performance for low-connectivity environments, significantly increasing user engagement and conversion rates by 25%.",
+        "Implemented comprehensive RBAC and JWT session management, cutting access-related security incidents by 50%.",
+        "Led cross-functional collaboration with DevOps and QA to establish strict code quality standards, achieving 85%+ code coverage across critical paths.",
+      ],
+    },
+    {
+      title: "Software Engineer – AI Platform",
+      company_name: "Ebiashara Africa Ltd",
+      icon: ebiashara,
+      iconBg: "#E6DEDD",
+      date: "August 2022 - Present",
+      points: [
+        "Engineered scalable payment processing and e-commerce flows using HTTP/3 over gRPC, achieving sub-200ms latency and reducing data transmission costs by 30%.",
+        "Architected advanced observability and logging frameworks using the ELK Stack and AWS CloudWatch, supporting 10,000+ active daily users and ensuring 99.9% system availability.",
+        "Led the integration of AI-assisted development tools and agentic code review bots, accelerating infrastructure-provisioning cycles and reducing code-review turnaround by 25%.",
+        "Established robust IaC automation (Terraform, Ansible) for Kubernetes (EKS) clusters, ensuring regression-free, reliable releases.",
+      ],
+    },
+    {
+      title: "Software Engineer",
+      company_name: "Dawin Tours and Travel Ltd",
+      icon: shopify,
+      iconBg: "#383E56",
+      date: "March 2020 - July 2022",
+      points: [
+        "Spearheaded the integration of complex payment gateways, including the Safaricom Daraja M-PESA API and multi-currency credit card processors, to handle real-time reservations and financial settlements.",
+        "Designed strict idempotency mechanisms within payment routing services to guarantee exact-once processing, completely eliminating duplicate charges and data loss during mobile network timeouts.",
+        "Implemented automated financial reconciliation pipelines that securely synced third-party booking revenues with internal ledger databases and automated KRA API tax reporting.",
+      ],
+    },
+    {
+      title: "Software Engineer",
+      company_name: "Freelance",
+      icon: starbucks,
+      iconBg: "#E6DEDD",
+      date: "July 2019 - March 2020",
+      points: [
+        "Engineered secure, high-conversion checkout pipelines for custom e-commerce platforms, integrating third-party payment gateways with robust input validation to ensure transaction integrity and prevent duplicate billing.",
+        "Implemented secure session management and authentication protocols across client storefronts, safeguarding consumer financial data during the checkout process.",
+        "Optimized platform performance and database query latency, directly improving the user experience and contributing to a 40% increase in online sales conversions across client portfolios.",
+      ],
+    },
+
   ];
   
   const testimonials = [
