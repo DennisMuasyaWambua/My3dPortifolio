@@ -26,6 +26,10 @@ import {
     threejs,
   } from "../assets";
   import ebiashara from "../assets/company/ebiashara.png";
+  import panacare from "../assets/company/panacare.webp";
+  import burn from "../assets/company/burn.jpg";
+  import dawin from "../assets/company/dawin.png";
+  import freelance from "../assets/company/freelance.svg";
   import arronax from "../assets/arronaxhome.png";
   import smartnyumba from "../assets/smartnyumba.png";
   import agritech from"../assets/agritech.jpg";
@@ -124,8 +128,8 @@ import {
     {
       title: "Consultant Software Engineer – Systems Reliability & FinTech",
       company_name: "Panacare Telehealth",
-      icon: meta,
-      iconBg: "#E6DEDD",
+      icon: panacare,
+      iconBg: "#FFFFFF",
       date: "August 2025 - April 2026",
       points: [
         "Architected and delivered highly available, containerized microservices for a large-scale platform, ensuring 99.9% uptime during peak load periods.",
@@ -138,8 +142,8 @@ import {
     {
       title: "Software Engineer",
       company_name: "BURN Manufacturing USA LLC",
-      icon: tesla,
-      iconBg: "#383E56",
+      icon: burn,
+      iconBg: "#FFFFFF",
       date: "August 2025 - February 2026",
       points: [
         "Designed and documented scalable RESTful API contracts for a multi-country IoT and e-commerce platform, enabling rapid third-party integration and seamless cross-market functionality.",
@@ -164,8 +168,8 @@ import {
     {
       title: "Software Engineer",
       company_name: "Dawin Tours and Travel Ltd",
-      icon: shopify,
-      iconBg: "#383E56",
+      icon: dawin,
+      iconBg: "#FFFFFF",
       date: "March 2020 - July 2022",
       points: [
         "Spearheaded the integration of complex payment gateways, including the Safaricom Daraja M-PESA API and multi-currency credit card processors, to handle real-time reservations and financial settlements.",
@@ -176,8 +180,8 @@ import {
     {
       title: "Software Engineer",
       company_name: "Freelance",
-      icon: starbucks,
-      iconBg: "#E6DEDD",
+      icon: freelance,
+      iconBg: "#1d1836",
       date: "July 2019 - March 2020",
       points: [
         "Engineered secure, high-conversion checkout pipelines for custom e-commerce platforms, integrating third-party payment gateways with robust input validation to ensure transaction integrity and prevent duplicate billing.",
